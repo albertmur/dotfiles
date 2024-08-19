@@ -1,0 +1,18 @@
+{
+    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+    "workbench.editor.enablePreview": false,
+    "window.zoomLevel": 2,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "C_Cpp.errorSquiggles": "enabled",
+
+    // Oh my posh:
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+
+    // Fer que les línies saltin automàticament: 
+    "editor.wordWrap": "on",
+
+    // Desactivar el minimapa
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false
+
+}
