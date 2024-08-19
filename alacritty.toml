@@ -1,0 +1,13 @@
+import = [
+    "~/.config/alacritty/themes/themes/dracula_plus.toml"
+]
+
+[window]
+padding = { x = 10, y = 10 }
+decorations = "Full" 
+opacity = 0.9
+dynamic_title = false
+title = "Terminal"
+
+[mouse]
+hide_when_typing = false
