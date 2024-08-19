@@ -11,3 +11,6 @@ title = "Terminal"
 
 [mouse]
 hide_when_typing = false
+
+[font]
+size = 14
