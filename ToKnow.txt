@@ -7,4 +7,6 @@ sudo zypper in gtk3-devel gtk-layer-shell-devel pango-devel gdk-pixbuf-devel lib
 
 4. To use the default font of VSCode, install the saja-cascadia-code-fonts.
 
+5. Prova
+
 
