@@ -5,7 +5,7 @@ import = [
 [window]
 padding = { x = 10, y = 10 }
 decorations = "Full" 
-opacity = 0.9
+opacity = 1
 dynamic_title = false
 title = "Terminal"
 
@@ -13,4 +13,4 @@ title = "Terminal"
 hide_when_typing = false
 
 [font]
-size = 14
+size = 14 
