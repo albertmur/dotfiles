@@ -25,16 +25,10 @@
 		"pulseaudio",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
-		"memory",
-		"custom/left-arrow-light",
-		"custom/left-arrow-dark",
-		"cpu",
-		"custom/left-arrow-light",
-		"custom/left-arrow-dark",
 		"battery",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
-		"disk",
+		"network",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
 		"tray"
@@ -90,14 +84,6 @@
 		"on-click": "pamixer -t",
 		"on-click-right": "pavucontrol"
 	},
-	"memory": {
-		"interval": 5,
-		"format": "Mem {}%"
-	},
-	"cpu": {
-		"interval": 5,
-		"format": "CPU {usage:2}%"
-	},
 	"battery": {
 		"states": {
 			"good": 95,
@@ -113,10 +99,12 @@
 			""
 		]
 	},
-	"disk": {
-		"interval": 5,
-		"format": "Disk {percentage_used:2}%",
-		"path": "/"
+	"network": {
+		"on-click": "systemsettings",	
+		"format": "{icon} {ifname}",
+		"format-icons":[ 
+			"",
+		],
 	},
 	"tray": {
 		"icon-size": 20
