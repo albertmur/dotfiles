@@ -3,5 +3,6 @@
     "terminal.integrated.fontFamily": "monospace",
     "editor.fontFamily": "Cascadia Code",
     "window.titleBarStyle": "custom",
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false
 }
