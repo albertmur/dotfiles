@@ -9,3 +9,4 @@
       - Appearence > Shell and Aplication Themes,
    and set them to "Adwaita".
    Also, all the preferred fonts should be Cantarell 12.
+4. To be able to listen, open pavucontrol (aka Volume Control) and in Configuration, select the correct built-in audio. Then, in output devices, the correct device should be selected.
