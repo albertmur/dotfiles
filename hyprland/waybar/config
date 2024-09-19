@@ -4,6 +4,8 @@
 {
 	"layer": "top",
 	"position": "bottom",
+	// to ensure Waybar is displayed on only one monitor:
+	// "output": "HDMI-A-2" (in my case, check yours with hyprctl monitors)
 
 	"modules-left": [
 		"hyprland/workspaces",
