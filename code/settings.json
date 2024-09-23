@@ -1,5 +1,5 @@
 {
-    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
     "terminal.integrated.fontFamily": "monospace",
     "editor.fontFamily": "Cascadia Code",
     "window.titleBarStyle": "custom",
