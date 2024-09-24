@@ -1,4 +1,3 @@
----
 To set the right resolution for grub in etc/default/grub you have to:
    - GRUB_GFXMODE="1920x1080"
    - Run sudo grub2-mkconfig -o /boot/grub2/grub.cfg
