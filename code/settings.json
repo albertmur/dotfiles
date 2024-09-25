@@ -1,8 +1,28 @@
 {
+    // Settings.json can be opened with: CTRL + SHIFT + P and then writing: Open User Settings (JSON)
+    
+    // To make VS Code stop asking if you trust a workspace
     "security.workspace.trust.enabled": false,
+
+    // To specify the font familiy used in the terminal & editor
     "terminal.integrated.fontFamily": "monospace",
     "editor.fontFamily": "Cascadia Code",
+
+    // To use VS Code with its own styled title bar (so it merges the top bar and menu into a unified look)
     "window.titleBarStyle": "custom",
+
+    // To make lines that are too long to fit in the visible part of the screen jump to the next one
     "editor.wordWrap": "on",
-    "editor.minimap.enabled": false
+
+    // To disable the minimap
+    "editor.minimap.enabled": false,
+
+    // To set the theme of the VS Code interface
+    "workbench.colorTheme": "Default High Contrast",
+
+    // To make the editor display relative line numbers (for Vim users btw)
+    "editor.lineNumbers": "relative",
+
+    // To not keep function headers or class names stuck at the top of the editor as you scroll down
+    "editor.stickyScroll.enabled": false
 }
