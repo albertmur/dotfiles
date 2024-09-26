@@ -109,6 +109,7 @@
 	"network": {
 		"on-click": "systemsettings",	
 		"format": "{icon} {essid}",
+		"format-ethernet": "{icon} {ifname}",
 		"format-icons":[ 
 			"",
 		],
