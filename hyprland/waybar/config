@@ -1,4 +1,5 @@
-// this config was copied from: https://github.com/cjbassi/config/tree/master/.config/waybar, and slightly modified so it can be used in hyprland
+// this config was copied from: https://github.com/cjbassi/config/tree/master/.config/waybar,
+// and slightly modified so it can be used in hyprland and aligns with my needs
 // -*- mode: json -*-
 
 {
