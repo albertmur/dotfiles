@@ -106,7 +106,7 @@
 	},
 	"network": {
 		"on-click": "systemsettings",	
-		"format": "{icon} {ifname}",
+		"format": "{icon} {essid}",
 		"format-icons":[ 
 			"",
 		],
