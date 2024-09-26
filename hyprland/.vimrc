@@ -1,4 +1,4 @@
-:set number
+:set relativenumber
 " Use a line cursor within insert mode and a block cursor everywhere else.
 " Reference chart of values:
 "   Ps = 0  -> blinking block.
