@@ -20,5 +20,47 @@ systemctl --user start pipewire pipewire-pulse
 pactl info | grep "Server Name" // to verify pipewire is running (the output should be PulseAudio (on PipeWire))
 ````
 ***
-
+To make all apps use the Adwaita mouse, modify these files with the following content:
+1. Hyprland Config ($HOME/.config/hypr/hyprland.conf):
+```
+env = XCURSOR_THEME,Adwaita
+env = XCURSOR_SIZE,24
+env = HYPRCURSOR_THEME,Adwaita
+env = HYPRCURSOR_SIZE,24
+```
+2. Xresources ($HOME/.Xresources):
+```
+Xcursor.theme: Adwaita
+Xcursor.size: 24
+```
+3. Xdefaults ($HOME/.Xdefaults):
+```
+Xcursor.theme: Adwaita
+Xcursor.size: 24
+```
+4. GTK 2.0 Config ($HOME/.gtkrc-2.0):
+```
+gtk-cursor-theme-name="Adwaita"
+gtk-cursor-theme-size=24
+```
+5. Icon Theme ($HOME/.icons/default/index.theme):
+```
+[Icon Theme]
+Inherits=Adwaita
+```
+6. GTK 3.0 Config ($HOME/.config/gtk-3.0/settings.ini):
+```
+gtk-cursor-theme-name=Adwaita
+gtk-cursor-theme-size=24
+```
+7. GTK 4.0 Config ($HOME/.config/gtk-4.0/settings.ini):
+```
+gtk-cursor-theme-name=Adwaita
+gtk-cursor-theme-size=24
+```
+8. Xsettingsd Config ($HOME/.config/xsettingsd/xsettingsd.conf):
+```
+Gtk/CursorThemeName "Adwaita"
+Gtk/CursorThemeSize 24
+```
 
