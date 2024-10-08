@@ -1,5 +1,5 @@
 To set the right resolution for grub in etc/default/grub you have to:
-   - Set GRUB_GFXMODE to "1920x1080" => GRUB_GFXMODE="1920x1080"
+   - Set GRUB_GFXMODE to 1920x1080 => GRUB_GFXMODE=1920x1080
    - Run sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ***
 To use the default VSCode font, cascadia-code-fonts must be installed.
