@@ -68,4 +68,9 @@ To make Kitty always have the same window title, launch it with:
 ```
 kitty --title Kitty
 ```
+To make alt-tab show all the windows in Gnome, and not group them by their name, 
+- go to settings > devices > keyboard
+- look for the keyboard shortcut for "Switch windows"
+- set this to the shortcut Alt+Tab
+***
 
