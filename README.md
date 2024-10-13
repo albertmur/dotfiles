@@ -74,4 +74,6 @@ To make alt-tab show all the windows in Gnome, and not group them by their name,
 - look for the keyboard shortcut for "Switch windows"
 - set this to the shortcut Alt+Tab
 ***
+To activate the option to center new windows when they are opened in gnome:
+- go to tweaks > windows > click actions > on
 
