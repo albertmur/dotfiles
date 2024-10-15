@@ -18,7 +18,7 @@
     "editor.minimap.enabled": false,
 
     // To set the theme of the VS Code interface
-    "workbench.colorTheme": "Default High Contrast",
+    "workbench.colorTheme": "Beautiful Dracula Darker",
 
     // To make the editor display relative line numbers (for Vim users btw)
     "editor.lineNumbers": "relative",
