@@ -1,3 +1,9 @@
+***
+If for an unknown reason some windows start floating when executing them, add the following to the config:
+```
+ windowrule = tile, ^(kitty)$ # replace kitty with the needed program
+```
+***
 To set the right resolution for grub in etc/default/grub you have to:
    - Set GRUB_GFXMODE to 1920x1080 => GRUB_GFXMODE=1920x1080
    - Run sudo grub2-mkconfig -o /boot/grub2/grub.cfg
