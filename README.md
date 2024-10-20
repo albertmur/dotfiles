@@ -71,7 +71,7 @@ Gtk/CursorThemeName "Adwaita"
 Gtk/CursorThemeSize 24
 ```
 ***
-To make Kitty always have the same window title, launch it with:
+To make Kitty always have the same window title (useful for gnome), launch it with:
 ```
 kitty --title Kitty
 ```
