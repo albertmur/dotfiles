@@ -1,17 +1,18 @@
+This repository contains my personal dotfiles for my Fedora setup using Hyprland. In the README, you will find detailed explanations of the various challenges I faced while configuring my environment and the solutions I implemented. I hope this can serve as a helpful resource for anyone encountering similar issues or looking to customize their own setup.
 ***
-If for an unknown reason some windows start floating when executing them, add the following to the config:
+If, for some reason, a window starts floating when executing it, you can resolve this by adding the following line to your hyprland.conf file:
 ```
  windowrule = tile, ^(kitty)$ # replace kitty with the needed program
 ```
 ***
 To set the right resolution for grub in etc/default/grub you have to:
-   - Set GRUB_GFXMODE to 1920x1080 => GRUB_GFXMODE=1920x1080
-   - Run sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+- Set GRUB_GFXMODE to 1920x1080 => GRUB_GFXMODE=1920x1080
+- Run sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ***
 To use the default VSCode font, cascadia-code-fonts must be installed.
 ***
 To restore the original GNOME settings if KDE overwrites them, install gnome-tweaks and go to:
-      - Appearance > Icons
+- Appearance > Icons
       - Appearence > Fonts
       - Appearence > Shell and Aplication Themes,
    and set them to "Adwaita".
