@@ -15,6 +15,7 @@ To restore the original GNOME settings if KDE overwrites them, install gnome-twe
 - Appearance > Icons
 - Appearence > Fonts
 - Appearence > Shell and Aplication Themes
+
 And set them to "Adwaita". In addition, all the preferred fonts should be Cantarell 12.
 ***
 Pulseaudio (at least for me) didn't work as intended. The solution? Install pipwire. To do so:
