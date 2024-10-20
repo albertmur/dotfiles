@@ -11,9 +11,9 @@ These are my favourite wallpapers:
 
 ![Wallpaper 5](gambare.png)
 
-![Wallpaper 6](girl.png)
+![Wallpaper 6](katsu.png)
 
-![Wallpaper 7](katsu.png)
+![Wallpaper 7](girl.png)
 
 ![Wallpaper 8](kon.jpeg)
 
