@@ -1,5 +1,5 @@
 Dotfiles for my Fedora setup using Hyprland (I occasionally use Gnome too, so there are some tips for it as well).
-In this repository, you'll also find some problems I encountered and how I solved them.
+Below, you'll find some problems I encountered and how I solved them (mainly for myself, as I tend to be quite forgetful :).
 ***
 If, for some reason, a window starts floating when executing it, you can resolve this by adding the following line to your hyprland.conf file:
 ```
