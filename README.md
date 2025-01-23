@@ -1,4 +1,5 @@
-This repository contains my personal dotfiles for my Fedora setup using Hyprland. In the README, you will find detailed explanations of the various challenges I faced while configuring my environment and the solutions I implemented. I hope this can serve as a helpful resource for anyone encountering similar issues or looking to customize their own setup.
+Dotfiles for my Fedora setup using Hyprland (I occasionally use Gnome too, so there are some tips for it as well).
+In this repository, you'll also find some problems I encountered and how I solved them.
 ***
 If, for some reason, a window starts floating when executing it, you can resolve this by adding the following line to your hyprland.conf file:
 ```
