@@ -10,7 +10,7 @@ To set the right resolution for grub in etc/default/grub you have to:
 - Set GRUB_GFXMODE to 1920x1080 => GRUB_GFXMODE=1920x1080
 - Run sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ***
-To use the default VSCode font, cascadia-code-fonts must be installed.
+To use the default VSCode font used in Windows, cascadia-code-fonts must be installed (and then selected in VSCode, check the settings.json file in the vscode folder for more info).
 ***
 To restore the original GNOME settings if KDE overwrites them, install gnome-tweaks and go to:
 - Appearance > Icons
