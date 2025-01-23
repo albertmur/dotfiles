@@ -27,6 +27,7 @@ systemctl --user enable pipewire pipewire-pulse
 systemctl --user start pipewire pipewire-pulse
 pactl info | grep "Server Name" // to verify pipewire is running (the output should be PulseAudio (on PipeWire))
 ````
+Finally, in the Output Devices section, lock the correct channel pressing the tick icon.
 ***
 To make all apps use the Adwaita mouse, modify these files with the following content:
 1. Hyprland Config ($HOME/.config/hypr/hyprland.conf):
