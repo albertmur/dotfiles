@@ -13,16 +13,12 @@ These are my favourite wallpapers:
 
 ![Wallpaper 6](katsu.png)
 
-![Wallpaper 7](girl.png)
+![Wallpaper 7](tokyo1.png)
 
-![Wallpaper 8](kon.jpeg)
+![Wallpaper 8](tokyo2.png)
 
-![Wallpaper 9](tokyo1.png)
+![Wallpaper 9](tokyo3.png)
 
-![Wallpaper 10](tokyo2.png)
-
-![Wallpaper 11](tokyo3.png)
-
-![Wallpaper 12](windows95.jpg)
+![Wallpaper 10](windows95.jpg)
 
 
