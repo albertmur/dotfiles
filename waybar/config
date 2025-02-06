@@ -33,8 +33,6 @@
 		"custom/left-arrow-dark",
 		"network",
 		"custom/left-arrow-light",
-		"custom/left-arrow-dark",
-		"tray"
 	],
 
 	"custom/left-arrow-dark": {
@@ -57,8 +55,6 @@
 	"hyprland/workspaces": {
 		"disable-scroll": true,
 		"format": "{name}"
-		"active-only": false,
-		"all-outputs": true
 	},
 
 	"clock#1": {
@@ -77,7 +73,6 @@
 	"pulseaudio": {
 		"format": "{icon} {volume:2}%",
 		"format-bluetooth": "{icon}  {volume}%",
-		"format-charging": "󱊦",
 		"format-muted": "MUTE",
 		"format-icons": {
 			"headphones": "",
@@ -109,12 +104,8 @@
 	"network": {
 		"on-click": "systemsettings",	
 		"format": "{icon} {essid}",
-		"format-ethernet": "{icon} {ifname}",
 		"format-icons":[ 
 			"",
 		],
 	},
-	"tray": {
-		"icon-size": 20
-	}
 }
