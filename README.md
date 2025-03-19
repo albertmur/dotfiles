@@ -79,7 +79,7 @@ kitty --title Kitty
 ```
 ***
 To make alt-tab show all the windows in Gnome, and not group them by their name, 
-- go to settings > eyboard
+- go to settings > Keyboard
 - look for the keyboard shortcut for "Switch windows"
 - set this to the shortcut Alt+Tab
 ***
