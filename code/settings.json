@@ -1,5 +1,5 @@
 {
-    // Settings.json can be opened with: CTRL + SHIFT + P and then writing: Open User Settings (JSON)
+    // The settings.json file can be opened with CTRL + SHIFT + P and then writing Open User Settings (JSON)
     
     // To make VS Code stop asking if you trust a workspace
     "security.workspace.trust.enabled": false,
@@ -8,7 +8,7 @@
     "terminal.integrated.fontFamily": "monospace",
     "editor.fontFamily": "Cascadia Code",
 
-    // To use VS Code with its own styled title bar (so it merges the top bar and menu into a unified look)
+    // (For Linux) To use VS Code with its own styled title bar (so it merges the top bar and menu into a unified look)
     "window.titleBarStyle": "custom",
 
     // To make lines that are too long to fit in the visible part of the screen jump to the next one
@@ -24,5 +24,9 @@
     "editor.lineNumbers": "relative",
 
     // To not keep function headers or class names stuck at the top of the editor as you scroll down
-    "editor.stickyScroll.enabled": false
+    "editor.stickyScroll.enabled": false,
+
+    //  To disable automatic detection of indentation and set each TAB to equal 2 spaces
+    "editor.detectIndentation": false,
+    "editor.tabSize":2
 }
