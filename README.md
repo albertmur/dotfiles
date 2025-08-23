@@ -85,4 +85,14 @@ To make alt-tab show all the windows in Gnome, and not group them by their name,
 ***
 To activate the option to center new windows when they are opened in gnome:
 - go to tweaks > windows > click actions > center new windows
+***
+If minimize and maximize buttons are missing on Wayland, add 
+```
+gtk-decoration-layout=icon:minimize,maximize,close
+```
+to ~/.config/gtk-3.0/settings.ini file, and run 
+```
+gsettings set org.gnome.desktop.wm.preferences button-layout 'icon:minimize,maximize,close'
+```
+in a terminal.
 
