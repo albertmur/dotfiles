@@ -94,5 +94,5 @@ to ~/.config/gtk-3.0/settings.ini file, and run
 ```
 gsettings set org.gnome.desktop.wm.preferences button-layout 'icon:minimize,maximize,close'
 ```
-in a terminal.
+in a terminal. Alternatively, in GNOME you can enable Maximize and Minimize by going to Tweaks > Windows > Titlebar Buttons.
 
