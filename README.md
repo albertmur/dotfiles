@@ -1,5 +1,6 @@
 Dotfiles for my Fedora setup using Hyprland (I occasionally use Gnome and KDE too, so there are some tips for them as well).
-Below, you'll find some problems I encountered and how I solved them (mainly for myself, as I tend to be quite forgetful :).
+Below, you'll find some problems I encountered and how I solved them (mainly for myself, as I tend to be quite forgetful :). 
+Important to note, I’m running the Fedora COPR build of Hyprland from solopasha’s repo.
 ***
 If, for some reason, a window starts floating when executing it, you can resolve this by adding the following line to your hyprland.conf file:
 ```
