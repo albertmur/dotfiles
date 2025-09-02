@@ -18,6 +18,7 @@
       "network",
       "bluetooth",
       "pulseaudio",
+      // "battery",
       "custom/power",
      ],
 
