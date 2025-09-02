@@ -1,5 +1,5 @@
 # Wallpapers
-These are my favourite wallpapers:
+These are the wallpapers I use:
 
 ![Wallpaper 1](blue.jpg)
 
