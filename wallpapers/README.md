@@ -3,9 +3,9 @@ These are my favourite wallpapers:
 
 ![Wallpaper 1](blue.jpg)
 
-![Wallpaper 2](fireblue.jpg)
+![Wallpaper 2](fireblue.png)
 
-![Wallpaper 3](firewatch.jpg)
+![Wallpaper 3](firegreen.jpg)
 
 ![Wallpaper 4](forest.jpeg)
 
