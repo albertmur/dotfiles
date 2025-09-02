@@ -20,6 +20,7 @@ window#waybar {
 
 #clock{
   color: #ffffff;
+  font-size: 20px;
 }
 
 #network{
@@ -35,6 +36,12 @@ window#waybar {
 }
 
 #pulseaudio{
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#battery{
   color: #ffffff;
   margin-right: 10px;
   font-size: 20px;
