@@ -35,12 +35,12 @@
         "format": "",
         "tooltip-format-wifi": "{essid} {signalStrength}%",
         "tooltip-format-ethernet": "{ifname}",
-        "on-click": "plasmawindowed org.kde.plasma.networkmanagement",
+        "on-click": "KDE_COLOR_SCHEME=BreezeDark.colors QT_QUICK_CONTROLS_STYLE=org.kde.desktop plasmawindowed org.kde.plasma.networkmanagement",
      },
      "bluetooth": {
         "format": "",
         "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
-        "on-click": " plasmawindowed org.kde.plasma.bluetooth",
+        "on-click": "KDE_COLOR_SCHEME=BreezeDark.colors QT_QUICK_CONTROLS_STYLE=org.kde.desktop plasmawindowed org.kde.plasma.bluetooth",
      },
      "pulseaudio": {
         "format": "{icon} {volume:2}%",
