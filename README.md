@@ -2,13 +2,13 @@
 
 Hey! This repo contains my dotfiles and configurations for **Fedora 42** running **Hyprland**.  
 
+---
+
 ## Showcase
 
 I’ve made a [YouTube video](https://www.youtube.com/watch?v=G9562_gSeG0) where I showcase my setup in action:  
 
 [![Watch the video](dotfiles.webp)](https://www.youtube.com/watch?v=G9562_gSeG0)  
-
-Click the image to watch the video!
 
 ---
 
