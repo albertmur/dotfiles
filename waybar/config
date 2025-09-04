@@ -1,11 +1,11 @@
 [
   {
     "layer": "top",
-    "position": "top",
+    "position": "bottom",
     "height": 33,
-    "margin-top": 5,
-    "margin-left": 5,
-    "margin-right": 5,
+    "margin-bottom": 4,
+    "margin-left": 6,
+    "margin-right": 6,
     // for my home-pc: "output": "HDMI-A-1",
 
     "modules-left": [
@@ -18,7 +18,7 @@
       "network",
       "bluetooth",
       "pulseaudio",
-      // "battery",
+      "battery",
       "custom/power",
      ],
 
@@ -35,15 +35,20 @@
         "format": "",
         "tooltip-format-wifi": "{essid} {signalStrength}%",
         "tooltip-format-ethernet": "{ifname}",
+	"tooltip-format-disconnected": "Disconnected",
+	"tooltip-format-disabled": "Disabled",
         "on-click": "KDE_COLOR_SCHEME=BreezeDark.colors QT_QUICK_CONTROLS_STYLE=org.kde.desktop plasmawindowed org.kde.plasma.networkmanagement",
      },
      "bluetooth": {
         "format": "",
         "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+	"tooltip-format-on": "No devices connected",
+	"tooltip-format-off": "Disconnected",
+	"tooltip-format-disabled": "Disabled",
         "on-click": "KDE_COLOR_SCHEME=BreezeDark.colors QT_QUICK_CONTROLS_STYLE=org.kde.desktop plasmawindowed org.kde.plasma.bluetooth",
      },
      "pulseaudio": {
-        "format": "{icon} {volume:2}%",
+        "format": "{icon} {volume:1}%",
         "format-muted": "",
         "format-icons": {
           "default": [
@@ -52,7 +57,7 @@
           ]
         },
         "scroll-step": 5,
-        "on-click": "pavucontrol",
+        "on-click": "KDE_COLOR_SCHEME=BreezeDark.colors QT_QUICK_CONTROLS_STYLE=org.kde.desktop plasmawindowed org.kde.plasma.volume",
      },
      "custom/power": {
         "format": "",
@@ -74,7 +79,8 @@
 			"",
 			"",
 			""
-		]
+		],
+        "on-click": "KDE_COLOR_SCHEME=BreezeDark.colors QT_QUICK_CONTROLS_STYLE=org.kde.desktop plasmawindowed org.kde.plasma.battery",
 	},
   }
 ]
