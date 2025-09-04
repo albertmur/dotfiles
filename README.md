@@ -1,6 +1,6 @@
 # My Dotfiles
 
-Hey! This repo contains my dotfiles and configurations for **Fedora 42** running **Hyprland**.  
+Hey! This repo has my dotfiles and configs for **Fedora 42** on **Hyprland**. I’ll be constantly tinkering to make it the ultimate ultra-super-duper setup!
 
 ---
 
