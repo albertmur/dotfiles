@@ -25,5 +25,6 @@ These are all the wallpapers I've used since I started ricing (current using the
 
 ![Wallpaper 12](black.jpg)
 
+![Wallpaper 13](firewatch.jpg)
 
 
