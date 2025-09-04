@@ -1,14 +1,13 @@
 * {
   font-size: 16px;
   min-height: 0;
-  border-radius: 1rem;
   padding: 0.1rem;
   font-family: "FiraCode Nerd Font", monospace;
-
 }
 
 window#waybar {
-  background: rgba(55, 113, 200, 255);
+  background: rgba(0, 0, 0, 255);
+  border: 2px solid white;
 }
 
 #custom-fedoraicon{
