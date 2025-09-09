@@ -46,6 +46,12 @@ window#waybar {
   font-size: 20px;
 }
 
+#power-profiles-daemon{
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
 #custom-power{
   color: #ffffff;
   margin-right: 10px;
