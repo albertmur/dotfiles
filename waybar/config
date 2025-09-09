@@ -28,7 +28,7 @@
         "on-click": "kitty -e sh -c \"fastfetch; exec zsh\""
      },
      "clock": {
-        "format": "{:%A, %d-%m-%Y, %H:%m}",
+        "format": "{:%A, %d-%m-%Y, %H:%M}",
         "on-click": "firefox --new-window https://calendar.google.com",
      },
      "network": {
