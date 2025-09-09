@@ -64,23 +64,34 @@
         "tooltip": false,
         "on-click": "wlogout",
      },
-// for laptop:
-	"battery": {
-		"states": {
-			"good": 95,
-			"warning": 30,
-			"critical": 15
-		},
-		"format": "{icon} {capacity}%",
-		"format-charging": " {capacity}%",
-		"format-icons": [
-			"",
-			"",
-			"",
-			"",
-			""
-		],
-        "on-click": "KDE_COLOR_SCHEME=BreezeDark.colors QT_QUICK_CONTROLS_STYLE=org.kde.desktop plasmawindowed org.kde.plasma.battery",
-	},
+	// for laptop:
+    "battery": {
+      "states": {
+        "good": 95,
+        "warning": 30,
+        "critical": 15
+      },
+      "format": "{icon} {capacity}%",
+      "format-charging": " {capacity}%",
+      "format-icons": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+        "on-click": "powerprofilesctl set performance || powerprofilesctl set balanced || powerprofilesctl set power-saver"
+    },
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
+    },
   }
 ]
