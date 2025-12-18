@@ -1,5 +1,5 @@
 # Wallpapers
-These are the wallpapers I use:
+These are all the wallpapers I've used since I started ricing (current using the black one):
 
 ![Wallpaper 1](blue.jpg)
 
@@ -20,5 +20,11 @@ These are the wallpapers I use:
 ![Wallpaper 9](tokyo3.png)
 
 ![Wallpaper 10](windows95.jpg)
+
+![Wallpaper 11](Hyprland.png)
+
+![Wallpaper 12](black.jpg)
+
+![Wallpaper 13](firewatch.jpg)
 
 
