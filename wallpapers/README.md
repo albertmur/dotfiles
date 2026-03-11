@@ -1,5 +1,5 @@
 # Wallpapers
-These are all the wallpapers I've used since I started ricing (current using the black one):
+These are all the wallpapers I've used since I started ricing (currently using the black one):
 
 ![Wallpaper 1](blue.jpg)
 
